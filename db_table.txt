@@ -1,0 +1,16 @@
+CREATE TABLE kategori_resto (
+id_kategori int PRIMARY KEY AUTO_INCREMENT,
+nama_kategori VARCHAR(100),
+foto_kategori VARCHAR(100)
+);
+
+CREATE TABLE resto (
+id VARCHAR(5) PRIMARY KEY,
+nama_resto VARCHAR(100),
+id_kategori int,
+alamat VARCHAR(255),
+no_telp VARCHAR(50),
+foto_menu VARCHAR(255),
+foto_preview VARCHAR(255),
+CONSTRAINT fk_idkategori_resto FOREIGN KEY (id_kategori) REFERENCES kategori_resto (id_kategori)
+);
