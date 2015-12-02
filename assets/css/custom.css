@@ -1,0 +1,24 @@
+@media(min-width: 768px) {
+	.header_logo > a > img {
+		max-height:73px;
+	}
+}
+@media(max-width: 768px) {
+	.header_logo > a > img {
+		max-width:400px;
+		margin: auto
+	}
+}
+.header_logo {
+	background: #000;
+}
+.home_slider_title {
+	background: #E0E0DE;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 20px;
+}
+
+.nopadding {
+	padding: 0px;
+}
