@@ -23,4 +23,9 @@ class Home extends CI_Controller {
 		$data['content'] = 'home';
 		$this->load->view('template',$data);
 	}
+
+	public function category() {
+		$data['content'] = 'category_detail';
+		$this->load->view('template',$data);
+	}
 }

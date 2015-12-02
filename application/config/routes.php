@@ -53,4 +53,4 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['custom_route'] = 'controller_name/function_name';
+$route['category'] = 'home/category';
