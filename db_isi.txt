@@ -10,6 +10,7 @@ INSERT INTO kategori_resto(id_kategori,nama_kategori) VALUES(9,'drinks');
 INSERT INTO kategori_resto(id_kategori,nama_kategori) VALUES(10,'ice cream');
 INSERT INTO kategori_resto(id_kategori,nama_kategori) VALUES(11,'sweets and desserts');
 INSERT INTO kategori_resto(id_kategori,nama_kategori) VALUES(12,'bakery and coffee shop');
+INSERT INTO kategori_resto(id_kategori,nama_kategori) VALUES(13, 'korean');
 
 -- ayam v.docx
 INSERT INTO resto VALUES('R0001','Ayam Kremes Bu Tjondro',2,'Gading Serpong, Jalan Boulevard Raya, Klp. Dua, Tangerang, Banten 15810','(021) 44445878','R0001_menu.jpg','R0001_preview.jpg');
@@ -27,31 +28,44 @@ INSERT INTO resto VALUES('R0011','Mie Ayam Abadi',1,'Ruko Mendrisio 3, Blok B No
 INSERT INTO resto VALUES('R0012','Bakmie Japos',1,'Ruko Flourite, Blok FR No. 20, Jl. Raya Kelapa Gading Utara, Gading Serpong, Serpong, Tangerang',null,'R0012_menu.jpg','R0012_preview.jpg');
 
 INSERT INTO resto VALUES('R0013','The Duck King',3,'Summarecon Mall Serpong 2 - Sentra Gading Serpong, Jl. Boulevard Gading Serpong, Kec. Tangerang, Banten 15810','(021) 29310655','R0013_menu.jpg','R0013_preview.jpg');
-INSERT INTO resto VALUES('R0014','Bebek Goreng Pak Slamet',3,'Ruko Boulevard, Blok BA3 No. 52, Jl. Boulevard Gading Serpong, Gading Serpong, Serpong, Tangerang','0852292111000, 087771060333, 085888960774','R0014_menu.jpg','R0014_preview.jpg');
+INSERT INTO resto VALUES('R0014','Bebek Goreng Pak Slamet',3,'Ruko Boulevard, Blok BA3 No. 52, Jl. Boulevard Gading Serpong, Gading Serpong, Serpong, Tangerang','0852-2921-11000, 0877-7106-0333, 0858-8896-0774','R0014_menu.jpg','R0014_preview.jpg');
 INSERT INTO resto VALUES('R0015','Bebek Gemes',3,'Summarecon Mall Serpong, Lantai 2, Jl. Boulevard Gading Serpong, Serpong Utara, Tangerang',null,'R0015_menu.jpg','R0015_preview.jpg');
 INSERT INTO resto VALUES('R0016','Sate Bebek Peking Dekwek',3,'Jl. Boulevard Raya Blok AA4 No. 19 Gading Serpong, Serpong, Tangerang',null,'R0016_menu.jpg','R0016_preview.jpg');
 INSERT INTO resto VALUES('R0017','Bebek Royal',3,'Summarecon Serpong Mall, Lt. 2, Food Temptation, Jl. Boulevard Gading Serpong, Tangerang Selatan',null,'R0017_menu.jpg','R0017_preview.jpg');
 INSERT INTO resto VALUES('R0018','Bebek dan Ayam Goreng Pak Ndut',3,'Ruko Flourite, No. 56, Jl. Boulevard Gading Serpong, Gading Serpong, Serpong, Tangerang',null,'R0018_menu.jpg','R0018_preview.jpg');
 
-INSERT INTO resto VALUES('R0019','Soto Betawi H Mamat',5,'Jl. Gading Serpong Boulevard, Klp. Dua, Tangerang, Banten 15810','081283885991, 081905959477, 081318642362','R0019_menu.jpg','R0019_preview.jpg');
+INSERT INTO resto VALUES('R0019','Soto Betawi H Mamat',5,'Jl. Gading Serpong Boulevard, Klp. Dua, Tangerang, Banten 15810','0812-8388-5991, 0819-0595-9477, 0813-1864-2362','R0019_menu.jpg','R0019_preview.jpg');
 INSERT INTO resto VALUES('R0020','Soto Pak Hapid',5,'Summarecon Mall Serpong, Salsa Food City, Jl. Gading Serpong Boulevard, Gading Serpong, Serpong, Tangerang','(021) 54201813','R0020_menu.jpg','R0020_preview.jpg');
 INSERT INTO resto VALUES('R0021','Soto Roxy H Darwasa',5,'Ruko Bolsena, Blok D No.37, Jl. Gading Serpong Boulevard, Gading Serpong, Serpong, Tangerang','(021) 99187447, (021) 99187117','R0021_menu.jpg','R0021_preview.jpg');
 INSERT INTO resto VALUES('R0022','Soto Kudus Senayan',5,'Ruko Florite Center Blok FR no. 20, Jl. Kelapa Gading Utara, Serpong - Tangerang',null,'R0022_menu.jpg','R0022_preview.jpg');
 INSERT INTO resto VALUES('R0023','Soto Ambengan',5,'Summarecon Mall Serpong 1 lt. 2 Unit FC-09A, Food Temptation, Jl. Boulevard Gading Serpong, Gading Serpong, Tangerang',null,'R0023_menu.jpg','R0023_preview.jpg');
 INSERT INTO resto VALUES('R0024','Asli Soto Medan 1930',5,'Gading Serpong, Ruko Paramount Frankfurt, Jalan Boulevard Raya, Klp. Dua, Tangerang, Banten 15810',null,'R0024_menu.jpg','R0024_preview.jpg');
 
---
+-- sweet 3 v.docx
+INSERT INTO resto VALUES('R_BRASSERIE','Brasserie Bakery & Resto',11,'Ruko Flourite, Jl. Boulevard Gading Serpong, Gading Serpong, Serpong, Tangerang',null,'R_BRASSERIE_menu.jpg','R_BRASSERIE_preview.jpg');
+INSERT INTO resto VALUES('R_BSTEAK','B''Steak Grill & Pancake',7,'Ruko Golden 8 Blok F No 3, Jl. Ki Hajar Dewantara - Gading Serpong 11151',null,'R_BSTEAK_menu.jpg','R_BSTEAK_preview.jpg');
+INSERT INTO resto VALUES('R_SWEETHUT','Sweet Hut',11,'Ruko Graha Boulevard, Blok A001, Jl. Boulevard Gading Serpong, Serpong Utara, Tangerang',null,'R_SWEETHUT_menu.jpg','R_SWEETHUT_preview.jpg');
+INSERT INTO resto VALUES('R_HONGTANG','Hong Tang',11,'Summarecon Mall Serpong, Lantai Ground, Downtown Walk, Jl. Boulevard Gading Serpong, Serpong Utara, Tangerang',null,'R_HONGTANG_menu.jpg','R_HONGTANG_preview.jpg');
+INSERT INTO resto VALUES('R_SOURSALLY','Sour Sally',11,'Summarecon Mall Serpong, Lantai 2, Jl. Boulevard Gading Serpong, Serpong Utara, Tangerang',null,'R_SOURSALLY_menu.jpg','R_SOURSALLY_preview.jpg');
+INSERT INTO resto VALUES('R_DESSERVED','Desserved',9,'Ruko Tematik Blok R No. 11, Gading Serpong, Serpong Utara, Tangerang',null,'R_DESSERVED_menu.jpg','R_DESSERVED_preview.jpg');
 
+-- roti dan coffee v.docx
+INSERT INTO resto VALUES('R_DAPOER','Dapoer Roti Bakar',12,'Summarecon Digital Center Mall, Lantai Ground, Garden Walk Jl. Scientia Boulevard Gading Serpong, Tangerang','(021) 29171098','R_DAPOER_menu.jpg','R_DAPOER_preview.jpg');
+INSERT INTO resto VALUES('R_DYNAMIC','Dynamic',12,'Summarecon Mall Serpong, Lantai Ground, Jl. Boulevard Gading Serpong, Serpong Utara, Tangerang','(021) 4508643, (021) 5468969','R_DYNAMIC_menu.jpg','R_DYNAMIC_preview.jpg');
+INSERT INTO resto VALUES('R_NAMI','Nami Bakery & Patisserie Gading Serpong',12,'Ruko Glaze 2c no. 28, Paramount Gading Serpong, Tangerang 15615','0877-7592-0902','R_NAMI_menu.jpg','R_NAMI_preview.jpg');
+INSERT INTO resto VALUES('R_VOYAGE','Voyage Coffee and Desserts',12,'Ruko Sparks, Blok C No. 8, Jl. Boulevard Raya Gading Serpong, Tangerang','0812-8770-5321','R_VOYAGE_menu.jpg','R_VOYAGE_preview.jpg');
+INSERT INTO resto VALUES('R_FLOW','Flow Coffe',12,'Ruko Blitz, Blok B No. 6, Jl. Boulevard Raya, Gading Serpong, Tangerang','(021) 29505845, 0856-8997-7366','R_FLOW_menu.jpg','R_FLOW_preview.jpg');
+INSERT INTO resto VALUES('R_TURNING','Turning Point Coffee',12,'Jalan Ki Hajar Dewantara, Ruko Golden 8 Extension Blok K no. 10, Gading Serpong, Kec. Tangerang, Banten 15810','0811-1099-444','R_TURNING_menu.jpg','R_TURNING_preview.jpg');
 
-
-
-
-
-
-
-
-
-
+-- martabak v.docx
+INSERT INTO resto VALUES('R_MICKEY','Martabak Mickey Mouse',6,'Jl. Boulevard Gading Serpong Blok BA 3 No. 22, Serpong, Tangerang','(021) 54212883','R_MICKEY_menu.jpg','R_MICKEY_preview.jpg');
+INSERT INTO resto VALUES('R_AAA','Martabak Bangka AAA',6,'Jl. Boulevard Gading Serpong (Samping Ruko Akang, Akiaw, Hj. Mamat)','0812-8625-355','R_AAA_menu.jpg','R_AAA_preview.jpg');
+INSERT INTO resto VALUES('R_BANDUNG','Martabak Bandung 201',6,'Jl. Boulevard Gading Serpong Blok AA3 No. 39, Gading Serpong, Tangerang','(021) 95433587, 085694254278','R_BANDUNG_menu.jpg','R_BANDUNG_preview.jpg');
+INSERT INTO resto VALUES('R_RASANE','Rasane Seafood',4,'Jl. Gading Golf Boulevard Blok G No. 1, Sektor Pakulonan Barat, Pagedongan Gading Serpong, Kec. Tangerang, Banten','(021) 54220608','R_RASANE_menu.jpg','R_RASANE_preview.jpg');
+INSERT INTO resto VALUES('R_ASOKA','Asoka Rasa',4,'Jl. Gading Serpong Boulevard Blok BA 3 No. 67, Serpong','(021) 5469777','R_ASOKA_menu.jpg','R_ASOKA_preview.jpg');
+INSERT INTO resto VALUES('R_PECENONGAN','Pecenongan Seafood',4,'Summarecon Mall Serpong, Salsa Food City SFC 01&02, Sentra Gading Serpong, Jl. Boulevard Gading Serpong, Serpong, 15810','(021) 5470033','R_PECENONGAN_menu.jpg','R_PECENONGAN_preview.jpg');
+INSERT INTO resto VALUES('R_CORNER','Steak Corner',7,'Ruko Graha Boulevard Kav. A 11-12, Gading Serpong, Kec. Tangerang, Banten','(021) 29001246','R_CORNER_menu.jpg','R_CORNER_preview.jpg');
+INSERT INTO resto VALUES('R_CONTAINER','Container Grill & Bar',7,'Ruko Paramount Rodeo, 2nd Floor, Jl. Boulevard Raya Kav. 22, Gading Serpong, Serpong','(021) 54221155','R_CONTAINER_menu.jpg','R_CONTAINER_preview.jpg');
 
 
 
