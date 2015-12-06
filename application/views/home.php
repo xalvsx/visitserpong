@@ -64,82 +64,20 @@
 				</div>
 			</div>
 			<div class="row">
+				<?php
+					foreach ($category as $cat) {
+				?>
 				<div class="col-sm-4">
-					<a href="#">
+					<a href="<?php echo base_url('category/' . $cat->id_kategori); ?>">
 						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">MARTABAK</h3>
+							<img src="<?php echo base_url('assets/img/category/' . $cat->foto_kategori); ?>" alt="<?php echo $cat->nama_kategori; ?>" class="img-responsive">
+							<h3 class="text-center"><?php echo strtoupper($cat->nama_kategori); ?></h3>
 						</div>
 					</a>
 				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">BAKMI</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">AYAM</h3>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">MARTABAK</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">BAKMI</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">AYAM</h3>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">MARTABAK</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">BAKMI</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">
-						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/bakmi.jpg'); ?>" class="img-responsive">
-							<h3 class="text-center">AYAM</h3>
-						</div>
-					</a>
-				</div>
+				<?php
+					}
+				?>
 			</div>
 		</div>
 
