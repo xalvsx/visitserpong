@@ -28,7 +28,7 @@
 	<div class="page-header-inner container">
 		<!-- BEGIN LOGO -->
 		<div class="col-sm-3 col-xs-12 header_logo">
-			<a href="index.html">
+			<a href="<?php echo base_url(); ?>">
 				<img src="<?php echo base_url(); ?>assets/img/logo-crop.jpg" alt="logo" class="img-responsive"/>
 			</a>
 		</div>
