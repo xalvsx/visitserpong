@@ -48,7 +48,11 @@ class Home extends CI_Controller {
 		$q = $this->db->query("SELECT * FROM resto WHERE id_kategori = ?", array((int)$id));
 		if($q->num_rows() > 0) {
 			foreach ($q->result() as $row) {
-				$data[] = $row;
+				$data['resto'][] = $row;
+			}
+			$q = $this->db->query("SELECT * FROM kategori_resto WHERE id_kategori = ?", array((int)$id));
+			foreach ($q->result() as $row) {
+				$data['category'] = $row;
 			}
 			return $data;
 		}
@@ -68,8 +72,8 @@ class Home extends CI_Controller {
 	public function category($id) {
 		$result = $this->getRestoByCategoryID($id);
 		if($result) {
-			$data['id'] = $id;
-			$data['resto_list'] = $result;
+			$data['category'] = $result['category'];
+			$data['resto_list'] = $result['resto'];
 			$data['content'] = 'category';
 			$this->load->view('template',$data);
 		}
