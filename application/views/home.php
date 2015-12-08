@@ -65,17 +65,27 @@
 			</div>
 			<div class="row">
 				<?php
+					$i = 0;
 					foreach ($category as $cat) {
+					if($i != 0 && $i % 3 == 0) {
+				?>
+			</div>
+			<div class="row">
+				<?php
+					}
 				?>
 				<div class="col-sm-4">
 					<a href="<?php echo base_url('category/' . $cat->id_kategori); ?>">
 						<div class="col-sm-10 col-sm-offset-1 well well-sm grey_a80">
-							<img src="<?php echo base_url('assets/img/category/' . $cat->foto_kategori); ?>" alt="<?php echo $cat->nama_kategori; ?>" class="img-responsive">
+							<div class="col-xs-12 category_photo_div nopadding">
+								<img src="<?php echo base_url('assets/img/category/' . $cat->foto_kategori); ?>" alt="<?php echo $cat->nama_kategori; ?>" class="img-responsive category_photo">
+							</div>
 							<h3 class="text-center"><?php echo strtoupper($cat->nama_kategori); ?></h3>
 						</div>
 					</a>
 				</div>
 				<?php
+						$i++;
 					}
 				?>
 			</div>
