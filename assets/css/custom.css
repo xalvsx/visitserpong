@@ -132,3 +132,18 @@ body {
 	color: yellow;
 	font-size: 20px;
 }
+
+.pfixed {
+	background: #000;
+	margin: 0px !important;
+	padding: 8px 20px !important;
+	position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    bottom: 0;
+}
+
+.title-text {
+	height: 80px;
+}

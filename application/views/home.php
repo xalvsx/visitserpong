@@ -80,7 +80,9 @@
 							<div class="col-xs-12 category_photo_div nopadding">
 								<img src="<?php echo base_url('assets/img/category/' . $cat->foto_kategori); ?>" alt="<?php echo $cat->nama_kategori; ?>" class="img-responsive category_photo">
 							</div>
-							<h3 class="text-center"><?php echo strtoupper($cat->nama_kategori); ?></h3>
+							<div class="col-xs-12 title-text">
+								<h3 class="text-center"><?php echo strtoupper($cat->nama_kategori); ?></h3>
+							</div>
 						</div>
 					</a>
 				</div>
