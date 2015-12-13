@@ -12,8 +12,8 @@
 	?>
 	<a href="<?php echo base_url('detail/' . $r->id); ?>">
 		<div class="row category_header">
-			<div class="col-sm-2 bblack">
-				<img src="<?php echo base_url('assets/img/resto/' . $r->id); ?>" alt="<?php echo $r->nama_resto; ?>" class="img-responsive marginauto">
+			<div class="col-sm-2 bblack nopadding">
+				<img src="<?php echo base_url('assets/img/resto/' . $r->id); ?>.jpg" alt="<?php echo $r->nama_resto; ?>" class="img-responsive marginauto">
 			</div>
 			<div class="col-sm-10 bgdarkgrey white">
 				<p class="text-center nomargin category_header_name">

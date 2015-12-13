@@ -2,6 +2,18 @@ body {
 	background: #efefef;
 }
 
+.category_photo_div {
+	display: flex;
+	justify-content : center;
+	align-items : center;
+	height:300px;
+}
+
+.category_photo {
+	max-height: 300px;
+	margin:auto;
+}
+
 @media(min-width: 768px) {
 	.header_logo > a > img {
 		max-height:73px;
