@@ -19,7 +19,7 @@
 	<link href="<?php echo base_url(); ?>assets/css/themes/default.css" rel="stylesheet" type="text/css"/>
 	<link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet" type="text/css"/>
 
-	<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/favicon.ico">
+	<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/logo.ico">
 </head>
 <body class="page-md page-boxed page-header-fixed page-header-fixed-mobile page-footer-fixed1">
 
